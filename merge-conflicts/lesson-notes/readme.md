@@ -34,7 +34,8 @@ In small groups, complete the following:
 
 - Run the code below in their terminal _outside of_ an existing `git` repository.
   ```bash
-  take group-merge-conflicts
+  mkdir group-merge-conflicts
+  cd group-merge-conflicts
   git init
   echo ".DS_Store" > .gitignore
   git add .
